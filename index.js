@@ -34,12 +34,12 @@ const questions = [
     {
         type:"input",
         message:"Provide contributing parties",
-        name:"Contributors"
+        name:"Contribution"
     },
     {
         type:"input",
         message:"Provide project tests",
-        name:"Test"
+        name:"Tests"
     },
     {
         type:"input",
@@ -48,8 +48,8 @@ const questions = [
     },
     {
         type:"input",
-        message:"What is your repository link?",
-        name:"Repository"
+        message:"What is your E-mail address?",
+        name:"Email"
     }
 
 ];

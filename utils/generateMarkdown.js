@@ -83,11 +83,14 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   console.log(data.Title)
   const badge = renderLicenseBadge(data.License)
-  return `
-  # **${data.Title}**
-  ${badge}
+  return ` 
+
+  # ${data.Title}  
+
+  ${badge}  
 
   ## Description
+
   ${data.Description}
 
   ## Table of Contents  
@@ -95,33 +98,37 @@ function generateMarkdown(data) {
   -[Installation](#Installation)  
   -[Usage](#Usage)  
   -[License](#License)  
-  -[Contributors](#Contributors)  
-  -[Test](#Test)  
-  -[GitHub](#GitHub)  
-  -[Repository](#Repository)  
+  -[Contribution Guidelines](#contribution-guidelines)  
+  -[Tests](#Tests)  
+  -[Questions](#Questions)  
 
-  ## Installation
+  ## Installation Instructions
   ${data.Installation}
 
-  ## Usage
+  ## Usage Information
   ${data.Usage}
 
-  ## Contributors
-  ${data.Contributors}
+  ## Contribution Guidelines
+  ${data.Contribution}
 
-  ## Test
-  ${data.Test}
+  ## Tests
+  ${data.Tests}
 
-  ## GitHub
-  ${data.GitHub}
-    ![Image of me](${githubInfo.githubImage})  
-    - ${githubInfo.name}  
-    - [GitHub Profile](${githubInfo.profile})  
-    - <${githubInfo.email}>  
+  [Video Tutorial](https://www.youtube.com/watch?v=M5wcE0xKS8Q)
 
-  ## Repository
-  - [Project Repo](${data.Repository})
-  `
+  [Video Results](https://www.youtube.com/watch?v=RkzikrhYoBc)
+
+  ## License
+  ${badge}
+
+  ## Questions
+
+[Github](https://github.com/${data.GitHub})
+
+[E-Mail](mailto:${data.Email})
+
+
+`
 }
 module.exports ={
   generateMarkdown,
