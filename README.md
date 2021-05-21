@@ -1,6 +1,6 @@
  
 
-  # ReadMe File Generator  
+  # ReadMe Generator  
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
@@ -21,15 +21,17 @@
   You'll need the latest version on node.js and inquirer package.
 
   ## Usage Information
-  You can use this generator with all of your projects or homeworks. It will save you a lot of time and just answering a few questions it will generate a good looking and descriptive ReadMe file. 
+  You can use this generator with all of your projects or homeworks. It will save you a lot of time and just answering a few questions it will generate a good looking and descriptive ReadMe file.
 
   ## Contribution Guidelines
   All contributors are welcomed and all of my contact information is in the Questions section.
 
   ## Tests
-  You can test this application by running node index.js in your command line. 
+  You can test this application by running node index.js in your command line.
 
+  [Video Tutorial](https://youtu.be/M5wcE0xKS8Q)
 
+  [Video Results](https://youtu.be/RkzikrhYoBc)
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -39,5 +41,4 @@
 [Github](https://github.com/michelaqyteza)
 
 [E-Mail](mailto:michelaq1997@gmail.com)
-
 

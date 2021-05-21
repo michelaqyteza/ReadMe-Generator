@@ -114,9 +114,9 @@ function generateMarkdown(data) {
   ## Tests
   ${data.Tests}
 
-  [Video Tutorial](https://www.youtube.com/watch?v=M5wcE0xKS8Q)
+  [Video Tutorial](https://youtu.be/M5wcE0xKS8Q)
 
-  [Video Results](https://www.youtube.com/watch?v=RkzikrhYoBc)
+  [Video Results](https://youtu.be/RkzikrhYoBc)
 
   ## License
   ${badge}
@@ -126,7 +126,6 @@ function generateMarkdown(data) {
 [Github](https://github.com/${data.GitHub})
 
 [E-Mail](mailto:${data.Email})
-
 
 `
 }
